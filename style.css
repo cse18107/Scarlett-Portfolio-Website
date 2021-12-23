@@ -252,6 +252,13 @@ div.showcase__content {
 }
 
 
+/*-*-*-*-*-*-*-*-*-*-*-*-* (max-width:900px) Mark *-*-*-*-*-*-*-*-*-*-*-*-*/
+@media screen and (max-width:1214px){
+    section#showcase{
+        background-position: 100%;
+        align-items:flex-end ;
+    }
+}
 /*-*-*-*-*-*-*-*-*-*-*-*-* (max-width:1090px) Mark *-*-*-*-*-*-*-*-*-*-*-*-*/
 @media screen and (max-width:1090px) {
 
@@ -350,5 +357,10 @@ div.showcase__content {
 
     ul.header__main-nav--links li.fade {
         opacity: 1;
+    }
+}
+@media screen and (max-width:800px){
+    section#showcase{
+        background-position: 80%;
     }
 }
